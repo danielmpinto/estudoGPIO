@@ -5,3 +5,9 @@ cmake-*
 build
 .DS_Store
 *.pdf
+CMakeCache.txt
+generated
+pico-sdk
+Makefile
+pioasm
+CMakeFiles
