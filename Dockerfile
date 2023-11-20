@@ -16,3 +16,10 @@ RUN git clone https://github.com/raspberrypi/pico-sdk --branch master /opt/sdk/p
     && cd /home/dev \
     && git clone https://github.com/raspberrypi/pico-examples --branch master
 ENV PICO_SDK_PATH=/opt/sdk/pico-sdk
+
+cd /workspaces/estudoGPIO/
+chmod +x buildandmake.sh
+
+
+# automated building and making for any program
+
