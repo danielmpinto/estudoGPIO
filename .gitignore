@@ -11,3 +11,5 @@ pico-sdk
 Makefile
 pioasm
 CMakeFiles
+cmake_instal.cmake
+elf2uf2
