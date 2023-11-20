@@ -1,5 +1,5 @@
 
-/workspaces/estudoGPIO/blink/blink.elf:     file format elf32-littlearm
+/workspaces/estudoGPIO_PICO/blink/blink.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -46,7 +46,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
  20 .debug_frame  00000028  00000000  00000000  00005800  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-/workspaces/estudoGPIO/blink/blink.elf:     file format elf32-littlearm
+/workspaces/estudoGPIO_PICO/blink/blink.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:

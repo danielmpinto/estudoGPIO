@@ -1,4 +1,4 @@
-# Install script for directory: /workspaces/estudoGPIO/blink
+# Install script for directory: /workspaces/estudoGPIO_PICO/blink
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

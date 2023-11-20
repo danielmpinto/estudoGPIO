@@ -1091,9 +1091,9 @@ Discarded input sections
  .comment       0x0000000000000000       0x5a CMakeFiles/blink.dir/opt/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/blink.dir/opt/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x0000000000000000        0x0 /tmp/cco7wDby.o
- .data          0x0000000000000000        0x0 /tmp/cco7wDby.o
- .bss           0x0000000000000000        0x0 /tmp/cco7wDby.o
+ .text          0x0000000000000000        0x0 /tmp/ccDz2eNZ.o
+ .data          0x0000000000000000        0x0 /tmp/ccDz2eNZ.o
+ .bss           0x0000000000000000        0x0 /tmp/ccDz2eNZ.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1357,7 +1357,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/cco7wDby.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccDz2eNZ.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1925,7 +1925,7 @@ LOAD CMakeFiles/blink.dir/opt/sdk/pico-sdk/src/rp2_common/pico_standard_link/new
 LOAD CMakeFiles/blink.dir/opt/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/blink.dir/opt/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/blink.dir/opt/sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /tmp/cco7wDby.o
+LOAD /tmp/ccDz2eNZ.o
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2013,7 +2013,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000540       0x2c CMakeFiles/blink.dir/opt/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x000000000000056c       0x22 /tmp/cco7wDby.o
+                0x000000000000056c       0x22 /tmp/ccDz2eNZ.o
  .ARM.attributes
                 0x000000000000058e       0x1e /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
