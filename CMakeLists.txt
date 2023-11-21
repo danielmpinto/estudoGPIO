@@ -19,7 +19,7 @@ set(PICO_EXAMPLES_PATH ${PROJECT_SOURCE_DIR})
 pico_sdk_init()
 
 # Add blink example
-add_subdirectory(inputblink)
+add_subdirectory(blink)
 
 
 
