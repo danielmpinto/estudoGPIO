@@ -4,7 +4,7 @@ ENV REFRESHED_AT 2023-11-20
 ENV PROCESSOR RP2040
 ENV TZ=America/São_Paulo
 ENV DEBIAN_FRONTEND=noninteractive
-WORKDIR /home/pico-examples
+WORKDIR /home/apps
 
 RUN apt-get update \
 && apt-get -y install git cmake gcc-arm-none-eabi python3 g++ libnewlib-arm-none-eabi build-essential
@@ -37,7 +37,6 @@ ENV PICO_SDK_PATH=/opt/sdk/pico-sdk
 
 
 
-WORKDIR /home/apps
 
 RUN git clone https://github.com/raspberrypi/openocd.git -b picoprobe --depth=1 && \
     cd openocd && ./bootstrap && ./configure --enable-ftdi --enable-sysfsgpio --enable-picoprobe && make -j 8 install && \
